@@ -7,32 +7,7 @@ import "./index.css";
 
 const App = () => {
   const [showAddTasks, setShowAddTasks] = useState(false);
-  const [tasks, setTasks] = useState([
-    {
-      id: 1,
-      text: "task 1",
-      day: "Feb 5th at 2.30 pm",
-      remainder: true,
-    },
-    {
-      id: 2,
-      text: "task 2",
-      day: "Feb 5th at 2.30 pm",
-      remainder: true,
-    },
-    {
-      id: 3,
-      text: "task 3",
-      day: "Feb 5th at 2.30 pm",
-      remainder: true,
-    },
-    {
-      id: 4,
-      text: "task 4",
-      day: "Feb 5th at 2.30 pm",
-      remainder: true,
-    },
-  ]);
+  const [tasks, setTasks] = useState([]);
 
   //Add task
   const addTask = (task) => {
